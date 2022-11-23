@@ -1,0 +1,88 @@
+@import "~antd/dist/antd.css";
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: '微软雅黑';
+}
+h2{
+  margin: 0;
+  
+}
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  
+}
+
+/* 样式的重置 */
+body, html, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, header, menu, section, p, input, td, th, ins {
+  padding: 3rem .5rem;
+  margin: 0;
+  background-color: rgb(17, 72, 143);
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover {
+  color: #666;
+  text-decoration: underline;
+}
+
+i, em {
+  font-style: normal;
+}
+
+input, textarea, button, select, a {
+  outline: none;
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+.wrap-v1 {
+  width: 1050px;
+  margin: 0 auto;
+}
+.wrap-v2 {
+  /* width: 65vw; */
+  width: 982px;
+  margin: 0 auto;
+}
+
+
+/* 多行文本溢出显示省略号(...) */
+
+.text-nowrap {
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  overflow: hidden !important;
+}
+.texts-nowrap {
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+#ScaleBox {
+  --scale: 1;
+}
